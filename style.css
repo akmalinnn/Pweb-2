@@ -1,99 +1,65 @@
 
-	
-	/* wildcard styling */
-	* {
-		box-sizing: border-box;
-	}
-	
-	/* padding for whole body */
-	body {
-		padding: 15px;
-        background: linear-gradient(0deg, rgba(255,230,113,1) 0%, rgba(82,167,255,1) 100%);
-        
-	}
-	
-	/* styling body */
-	.container {
-		max-width: 1200px;
-		margin: auto;
-        
-	}
-	
-	h1 {
-        font-family: 'Courier New', Courier, monospace;
-		color: rgb(255, 255, 255);
-	}
-	
-    h3 {
-        font-family: 'Courier New', Courier, monospace;
-		color: rgb(255, 255, 255);
-	}
-	/* anchor tag decoration */
-	a {
-		text-decoration: none;
-		color: #5673C8;
-        font-family: 'Courier New', Courier, monospace;
-	}
-	
-	a:hover {
-		color: rgb(255, 255, 255);
-	}
-	
-	/* paragraph tag decoration */
-	p {
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 4;
-		overflow: hidden;
+  
 
-	}
-	
-	/* row and column decoration */
-	.row {
-		margin: 0px -18px;
-		padding: 8px;
-	}
-	
-	.row > .column {
-		padding: 6px;
-	}
-	
-	.column {
-		float: left;
-		width: 25%;
-        display: flex;
-	}
-	
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-	
-	/* content decoration */
-	.content {
-		background-color:  rgba(255, 255, 255, 0.5);
-		padding: 10px;
-		border: 1px solid gray;
-        border-radius: 0.40rem;
-	}
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #c1c1c1;
+  }
+  
 
-			
-			/* create footer */
-	
-	/* window size 850 width set */
-	@media screen and (max-width: 850px) {
-		.column {
-			width: 50%;
-		}
-	}
+  .cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: #666;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  header img {
+    border-radius: 50%;
+  }
 
-	/* window size 400 width set */
-	@media screen and (max-width: 400px) {
-		.column {
-			width: 100%;
-		}
-	}
+  main {
+    margin-top: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 16px;
+    color: #666;
+    text-indent: 50px;
+  }
+  
 
-
-
+  .footer-image {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-image img {
+    max-width: 100%;
+  }
+  
